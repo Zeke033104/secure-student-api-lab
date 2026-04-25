@@ -5,4 +5,3 @@ router = DefaultRouter()
 router.register(r'students', StudentRecordViewSet)
 
 urlpatterns = router.urls
-

@@ -1,0 +1,8045 @@
+﻿.\venv\Scripts\python.exe 
+: Traceback (most recent 
+call last):
+At line:1 char:1
++ 
+.\venv\Scripts\python.exe 
+manage.py check > 
+output.log 2>&1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~
+    + CategoryInfo         
+     : NotSpecified: (Tra  
+  ceback (most recent ca   
+ ll last)::String) [],     
+RemoteException
+    + FullyQualifiedErrorI 
+   d : NativeCommandError
+ 
+  File 
+"C:\Users\User\Module 4 - 
+INTEG\manage.py", line 22, 
+in <module>
+    main()
+    ~~~~^^
+  File 
+"C:\Users\User\Module 4 - 
+INTEG\manage.py", line 18, 
+in main
+    execute_from_command_li
+ne(sys.argv)
+    ~~~~~~~~~~~~~~~~~~~~~~~
+~~^^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\management\__i
+nit__.py", line 443, in 
+execute_from_command_line
+    utility.execute()
+    ~~~~~~~~~~~~~~~^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\management\__i
+nit__.py", line 437, in 
+execute
+    self.fetch_command(subc
+ommand).run_from_argv(self.
+argv)
+    ~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~^^^^^^
+^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\management\bas
+e.py", line 420, in 
+run_from_argv
+    self.execute(*args, 
+**cmd_options)
+    ~~~~~~~~~~~~^^^^^^^^^^^
+^^^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\management\bas
+e.py", line 464, in execute
+    output = 
+self.handle(*args, 
+**options)
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\management\com
+mands\check.py", line 81, 
+in handle
+    self.check(
+    ~~~~~~~~~~^
+        
+app_configs=app_configs,
+        
+^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        databases=options["
+databases"],
+        ^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^
+    )
+    ^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\management\bas
+e.py", line 496, in check
+    all_issues = 
+checks.run_checks(
+        
+app_configs=app_configs,
+    ...<2 lines>...
+        
+databases=databases,
+    )
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\registr
+y.py", line 89, in 
+run_checks
+    new_errors = check(app_
+configs=app_configs, 
+databases=databases)
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 16, in 
+check_url_config
+    return 
+check_resolver(resolver)
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 542, in check
+    messages.extend(check_r
+esolver(pattern))
+                    
+~~~~~~~~~~~~~~^^^^^^^^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\core\checks\urls.py
+", line 26, in 
+check_resolver
+    return check_method()
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 434, in check
+    warnings.extend(self.pa
+ttern.check())
+                    
+~~~~~~~~~~~~~~~~~~^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 350, in check
+    *self._check_pattern_st
+artswith_slash(),
+     ~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~^^
+  File 
+"C:\Users\User\Module 4 - I
+NTEG\venv\Lib\site-packages
+\django\urls\resolvers.py",
+ line 172, in _check_patter
+n_startswith_slash
+    if not 
+settings.APPEND_SLASH:
+           
+^^^^^^^^^^^^^^^^^^^^^
+RecursionError: maximum 
+recursion depth exceeded
