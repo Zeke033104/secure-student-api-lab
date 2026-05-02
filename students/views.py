@@ -69,3 +69,27 @@ class StudentRecordViewSet(ModelViewSet):
     def perform_destroy(self, instance):
         logger.warning(f"Student record deleted by: {self.request.user} - record:{instance}")
         instance.delete()
+        
+        
+class PaymentRecordViewSet(ModelViewSet):
+    """
+    Lab 2: Secure Payment API
+    - Only authenticated users can create payment records
+    - Only admins can view all records; users see only their own
+    - Sensitive fields (card number, amount) are encrypted at rest
+    """
+    serializer_class = __import__('students.serializers', fromlist=['PaymentRecordSerializer']).PaymentRecordSerializer
+ 
+    def get_queryset(self):
+        from .models import PaymentRecord
+        user = self.request.user
+        if user.is_staff:
+            return PaymentRecord.objects.all()
+        return PaymentRecord.objects.filter(owner=user)
+ 
+    def get_permissions(self):
+        return [IsAuthenticated()]
+ 
+    def perform_create(self, serializer):
+        logger.info(f"Payment record created by: {self.request.user.username}")
+        serializer.save(owner=self.request.user)

@@ -27,3 +27,32 @@ class StudentRecord(models.Model):
             self._grade = encrypt(str(value))
         else:
             self._grade = None
+            
+class PaymentRecord(models.Model):
+    """"
+    You are building a Secure Payment API that handles sensitive user information.
+    The system must:
+    Encrypt sensitive fields Hash passwords securely Prevent brute-force attacks Log security-related events
+    """
+    owner = models.ForeignKey(User, on_delete=models.CASCADE)
+    card_number = models.CharField(max_length=100)
+    _card_number = models.TextField(db_column='encrypted_card_number')
+    _amount = models.TextField(db_column='encrypted_amount')
+    created_at = models.DateTimeField(auto_now_add=True)
+    
+    def __str__(self):
+        return f"Payment by {self.owner.username} on {self.created_at}"
+    
+    @property
+    def amount(self):
+        """Decrypt amount on read"""
+        if self._amount:
+            return decrypt(self._amount)
+        return None
+    
+    @amount.setter
+    def amount(self, value):
+        """Encrypt the amount before saving to the database"""
+        if value:
+            self._amount = encrypt(str(value))
+    
