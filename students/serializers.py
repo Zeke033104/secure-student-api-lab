@@ -25,3 +25,25 @@ class StudentRecordSerializer(serializers.ModelSerializer):
             instance.grade = grade
         instance.save()
         return instance
+    
+class PaymentRecordSerializer(serializers.ModelSerializer):
+    card_number = serializers.CharField(write_only=True)
+    amount = serializers.CharField(write_only=True)
+    cardholder_name = serializers.CharField()
+    
+    class Meta:
+        from .models import PaymentRecord
+        model = PaymentRecord
+        fields = ['id', 'owner', 'cardholder_name', 'card_number', 'amount', 'created_at']
+        read_only_fields = ['created_at']
+        
+        def create(self, validated_data):
+            from .models import PaymentRecord
+            card_number = validated_data.pop('card_number')
+            amount = validated_data.pop('amount')
+            instance = PaymentRecord(**validated_data)
+            instance.card_number = card_number
+            instance.amount = amount
+            instance.save()
+            return instance
+    
